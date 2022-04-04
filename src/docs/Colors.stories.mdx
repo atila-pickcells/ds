@@ -1,0 +1,32 @@
+import { Meta, ColorPalette, ColorItem } from '@storybook/addon-docs';
+import { css } from '../stitches.config.ts';
+
+<Meta title="Docs/Colors" />
+
+<ColorPalette title="Brand">
+  <ColorItem
+    title="blueBrand"
+    subtitle="The blues"
+    colors={{ MinusOne: '#66B6F2', Zero: '#42A7F2', PlusOne: '#2D88CC' }}
+  />
+  <ColorItem
+    title="greenBrand"
+    subtitle="The greens"
+    colors={{ MinusOne: '#5CA781', Zero: '#42A774', PlusOne: '#2D8056' }}
+  />
+  <ColorItem
+    title="black"
+    subtitle="The blacks"
+    colors={{ MinusOne: '#241135', Zero: '#0A1128', PlusOne: '#00000A' }}
+  />
+  <ColorItem
+    title="white"
+    subtitle="The whites"
+    colors={{ MinusOne: '#FFE7F0', Zero: '#EDE7E3', PlusOne: '#D8C0C5' }}
+  />
+  <ColorItem
+    title="Helpers"
+    subtitle="The helpers"
+    colors={{ successHelper: '#003E1F', errorHelper: '#BA1200', warningHelper: '#FFA62B', infoHelper: '#034078'}}
+  />
+</ColorPalette>
